@@ -1,0 +1,47 @@
+This is a collection of interview related questions and tests I've
+received in the last couple years--as well as notes I've compiled 
+for myself to remember commonly asked for demonstrations of Python
+knowledge. 
+
+You can find problems akin to some of these at...
+ 
+https://projecteuler.net 
+
+...but some of the problems herein are rather original and/or specific.
+
+I think, at minimum, my notes, and answers to most of the challenges
+herein ought to be in easy grasp of one's memory prior to walking into
+a whiteboard test situation. Such tests usually tend to be _much_ more 
+difficult. There is little to nothing here regarding--for instance--data 
+types, efficiency of algorithms--and/or higher level computer science...
+all of which is fair game in the interview process. 
+
+I make no claim whatsover that my answers are, by any means, the best or 
+most intelligent. In fact, some were met with patent disapproval by my
+interviewers, even if the associated code worked. Neither do I make 
+representation that these particular test questions are the ones you'll 
+most likley encounter in your own job search.
+
+For self-taught programmers and/or those seeking a refresher, I can 
+recommend the Ars Digita University courses available on SD Drive here:
+
+http://aduni.org/drives/
+
+It provides a nice overview of undergraduate computer science compressed
+into a year long curriculum, and presents salient topics via highly cogent 
+and well taught videos. Similar courses and videos abound on the web.
+
+Also, the most popular beginning Python course can be found here:
+
+http://learnpythonthehardway.org/
+
+Finally, an great Javascript tutorial can be found here:
+
+http://eloquentjavascript.net/
+
+Feel free to contact me with questions, and/or even to suggest more optimal
+solutions than those suggested herein. Additional questions you've 
+encountered are also welcome.
+
+Sean Bradley
+sean@blogblimp.com
