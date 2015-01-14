@@ -1,0 +1,57 @@
+ACID = Atomicity, Consistency, Isolation, Durability
+
+1NF = one value only in each cell; primary key
+2NF = no partial functional dependencies (a non-key column depends on some but not all columns that comprise a composite primary key)
+3NF = no transitive dependencies (a non-key column is related to another non-key column)
+
+
+http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html
+
+()
+inner join = what is common to table A and table B
+
+SELECT * FROM TableA
+INNER JOIN TableB
+ON TableA.name = TableB.name
+
+
+(  )
+full outer join = everything in both table A and table B
+
+SELECT * FROM TableA
+FULL OUTER JOIN TableB
+ON TableA.name = TableB.name
+
+
+(()
+left outer join = everything in table A, and whatever table B has in common with table A
+
+SELECT * FROM TableA
+LEFT OUTER JOIN TableB
+ON TableA.name = TableB.name
+
+
+(
+left outer join with 'WHERE TableB.id IS null' clause = everything in table A that is not in table B
+
+SELECT * FROM TableA
+LEFT OUTER JOIN TableB
+ON TableA.name = TableB.name
+WHERE TableB.id IS null
+
+
+(())
+left outer join with 'WHERE TableB.id IS null OR TableA.id IS null' clause = everything in table A; everything in table B...but nothing that either table has in common.
+
+SELECT * FROM TableA
+FULL OUTER JOIN TableB
+ON TableA.name = TableB.name
+WHERE TableA.id IS null
+OR TableB.id IS null
+
+
+()()
+crossjoin = everything in both tables
+
+SELECT * FROM TableA
+CROSS JOIN TableB

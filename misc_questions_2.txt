@@ -1,0 +1,70 @@
+
+# What is your availability?
+
+I said immediately.  (In truth, I'm working under contract for five more days.)
+
+
+# Where would you like to be in three to five years...?
+
+This is a classic interview question, and I said some nice things about what I'd like to do, about being in a more evangelical position, working more directly with clients, etc.,  but in truth, I find the tech world rather too volatile to focus on this too much.
+
+
+# What is SOA?
+
+It means: Service Oriented Architecture.  I simply was unfamiliar with this term, or have heard it, but not really thrown it around in any of the dev environments in which I've worked.  So...I had to pass on this question.  Basically, though, it's the stringing together of multiple web-services or apps to gain any number of potential processing and/or performance advantage.  It falls within the domain of concern of "web-scale" architecture.
+
+
+# When is an application merely complete vs. ready to ship?
+
+My response was: when it's been thoroughly tested.  He may have been looking for something else...
+
+
+# What do you think about design patterns?
+
+This is a big question.  Depends if you're talking about modules and interconnections (i.e, patterns within code), or architecture (i.e., the way multiple apps are interconnected)... I didn't have a particular position on this matter.
+
+
+#What makes a good API?
+
+I said:
+    
+Security
+Efficient / allows asynchronous processing of API calls
+Documentation
+
+What might have also been nice to include (but which I did not)...
+    
+Does one thing and does it well
+Good weight to power ratio; should be small as possible
+Classes and members private as possible; hides information; allows
+modules to be understood, built, and tested independently
+Highly readable
+Performant irregardless of implementation
+
+
+#How would you deal with a distributed database requirement?
+
+Didn't have much experience at this really.  Here you're talking about sharding databases, etc.  I suggested some existing datastore solutions which are optimized for this sort of need, like Riak.
+
+
+#What experience do you have with messaging services (e.g., Celery)?
+
+I've had some experience with this...and cursorily described it.  Using it in a Django project I'm working on right now.
+
+
+#What caching technologies have you used?
+
+He's referring to things like the use of Memcache or Redis.  Again, I've had some experience with this, but for most of the apps I've worked on, the performance gains have been enabled more via things like client-side (in-browser) Javascript or the use of a content delivery network (CDN).
+
+
+#What are the principals of object oriented programming?
+
+Another big question...
+
+I mentioned Encapsulation, and Modularity--i.e., loosely coupled units of code.  An exhaustive response might have included...
+
+Encapsulation -- creation of self-contained modules that bind processing functions to the data.
+Inheritance -- classes are created in hierarchies, and inheritance lets the structure and methods in one class pass down the hierarchy.
+Polymorphism -- lets programmers create procedures for objects whose exact type is not known until runtime.
+Abstraction --  the process by which data and programs are defined with a representation similar in form to its meaning (semantics), while hiding away the implementation details.
+Dynamic dispatch – when a method is invoked on an object, the object itself determines what code gets executed by looking up the method at run time in a table associated with the object.

@@ -1,0 +1,101 @@
+#!/usr/bin/env python
+
+temperature = int(raw_input("Please enter temp in celsius >>>  "))
+
+def convert_celsius(degrees_celsius):
+  fahrenheit = degrees_celsius * 9 / 5 + 32
+  return fahrenheit
+
+print(convert_celsius(temperature))
+
+###################################
+
+var d = new Date(2012,8, 13);  // 2012/08/13
+var currentTime = d.getTime();
+var daysToAdd = 3;
+var secondsInADay = 86400;
+
+var d = new Date(currentTime + daysToAdd * secondsInADay);
+var year = d.getFullYear();
+var month = ("0" + (d.getMonth() + 1)).slice(-2);
+var day = ("0" + d.getDate()).slice(-2);
+
+console.log('result in Y-M-D is: ' + year + '-' + month + '-' + day);
+
+
+qUESTION...
+
+Why is the output not 2012-08-16, as expected?? Since we are adding 3 days to the time from 2012-08-13? What needs to be fixed in order for it to show 2012-08-16? (Hint: There are two bugs.)
+
+ANSWER...
+
+d.getMonth()+1...
+
+No need to add the one.
+
+Not sure why daysToAdd comes up incorrect.  Need more time.  Not converting to 3 * 86400...?
+
+###################################
+
+
+Write a function to flatten a dictionary into a sorted list of key, value tuples, allowing for repeated keys:
+{'a': 1, 'c': {'d': {'e': 4}}, 'b': {'a': 2, 'b': 3}}
+Becomes:
+[('a', 1), ('a', 2), ('b', 3), ('e', 4)]
+
+
+
+Off the top of my my head, I'd say use defaultdict for this...
+
+Something like...
+
+from collections import defaultdict
+
+s = [{'a': 1, 'c': {'d': {'e': 4}}, 'b': {'a': 2, 'b': 3}]
+d = defaultdict(list)
+for k, v in s:
+    d[k].append(v)
+print d.items()
+
+But I don't think that'll work with a nested dictionary...
+
+###################################
+
+
+public class Person {
+      Person father;
+      Person mother;
+}
+
+Given a whole forest of Person trees, write a function that would take any two Persons, and determine if they are related by blood or not. [Hint: By blood, it may be helpful to enumerate all the possible relationships this means.] (The above example class is written in Java, but your response can be in or other languages. You may add any other member variables to the class that might help, except a Person child.)
+
+
+###################################
+
+If a function call returns indeterminate bad data at a small incident rate (say < 0.1%), but the input parameter is exactly the same every time you call, what are all the possible reasons why this might happen? Please explain.
+
+###################################
+
+Given a string of cell phone keypad presses, where keypad ‘2’ would represent letters 'a', 'b', or 'c', and so on, and a dictionary API call you can use to determine if the word is a valid dictionary word, we want to be able to take a sequence of keypad presses, and return an array of valid dictionary words.
+
+Part 1: Explain the algorithm you would use to accomplish this. Part 2: Write the code.
+
+###################################
+
+Solve the sequence...
+
+0091 = 3
+0113 = 1
+9999 = 4
+8600 = 5
+6712 = 1
+6811 =
+
+(3 is the correct answer; a kindergartner can figure this out, but a programmer will take at least an hour.)
+
+I'll tell you the answer if you give me the job. :)
+
+
+###################################
+
+

@@ -1,0 +1,12 @@
+        {% regroup all_geo_data by state_name as state_list %}
+        <ul>
+        {% for state_name in state_list %}
+            <li>{{ state_name.grouper }}
+                <ul>
+                    {% for item in state.list %}
+                    <li>{{ item.name }}, {{ item.county_name }}: {{ item.primary_latitude }} x {{ item.primary_longitude }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+        </ul>
