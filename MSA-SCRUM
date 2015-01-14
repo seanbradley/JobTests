@@ -1,0 +1,87 @@
+
+#NOTES ON DEVELOPMENT METHODOLOGIES
+
+The terms waterfall and agile and lean really describes how flexible steps in the development workflow are, the scope of those steps and the project considered generally, and whether or not the given methodology can absorb changes to the product roadmap.
+
+Each feature is planned, built, tested, reviewed, and deployed in sequence regardless of the given methodology. Waterfall accommodates larger projects and known or unlikely to change business requirements. Agile breaks things up into smaller projects and can better accommodate pivots that change business requirements. Moreover, Agile attempts to garner the benefit of a continuous improvement feedback loop during the scope of each sprint comprising the larger project. Whereas: feedback from a Waterfall project generally only comes after the end of the project itself. I find that Agile works better for teams that are not distributed with a strong and well-organized project manager. To do Agile right requires resources--i.e., bodies--and the willingness to focus on one problem or set of problems at a time. A dev shop with a limited number of bodies necessarily addressing many parallel projects in a scramble to ship by a certain date may not be the best candidate for Agile--because they'll only have the capacity to address so many sprints in parallel, nor in an environment where everyone wears multiple hats will they be able to execute with the specialized and disciplined focus of smaller projects. For all intents and purposes, Lean is a sub-set of Agile or a set of prinicipals that wrap around Agile.
+
+It's possible to adopt and mix and match to a degree these project methodolgies. There are some fundamental aspects of a SCRUM workflow that are really common to all of them. Worked is planned, work is executed, work is handed over for rejection or acceptance, the success of the original plan is reviewed. The question is: do you set shipping dates in front of that process, or, over time, bracket in on the likelihood of the shipping date being achieved.
+
+Great articles:
+https://www.linkedin.com/pulse/20121211155158-2157554-the-product-manager-s-lament
+http://smartdatacollective.com/bharden/38031/making-right-choice-agile-vs-waterfall
+http://www.onedesk.com/2013/06/scrum-methodology-vs-agile-methodology/
+http://www.onedesk.com/2013/07/lean-vs-agile/
+
+The Agile way...
+
+A product backlog (user stories) is piped into release backlog and recorded in issue tracking
+
+Assigned developer provides estimates in hours, days, or months.
+
+The release backlog pipes into a sprint backlog.
+
+Issues in the sprint are tagged and correlate with new feature branches.
+
+Use burndown velocity to monitor progress.
+
+After code review, each branch is merged to develop for deployment in a staging environ, and if passing QA there, is merged to master and then a release branch. Both develop and master may pipe to a continuous integration server where unit tests etc. are executed prior to deployment. Release management may be manual or automated to various degrees.
+
+
+############################################
+
+#NEGOTIATING CONSULTING AND MANAGED SERVICES AGREEMENTS
+
+Customer intake...
+
+Important to discuss:
+service level and response time agreements -- uptime / maintenance / troubleshooting
+backup / data warehousing / disaster recovery
+terms of resource handoff
+
+Review of current resources:
+
+- do current assets build successfully?
+- how much text coverage? do unittests pass?
+- other tests pass (acceptance, integration, etc)?
+- is there a database of open issues (easy to get if they use bugzilla, or similar)?
+- is there existing documentation / installation instructions?
+- is access to priginal architect / engineering team members?
+
+Conduct a review and inventory of:
+
+- code
+- version control, continuous integration, issue tracking, release management
+- development and production environments (hardware)
+
+Ensure accuracy of customer's claimed existing environment and legacy resources.
+Define environmental prerequisites for service.
+Establish a baseline environment locally.
+
+
+Identify and agree upon what hardware, users, vendors and services are covered, as well as those that are not.
+
+Clearly document and include in the contract the customer's own as well as the Managed Service Providers' roles and responsibilities.
+
+Provide for menu / fees for requested services which fall outside of flat-fee support.
+
+Determine duration of agreement: month to month, or year (discounted).
+
+Typical contract sub-headings:
+
+Services
+Priorities
+Responsibilities
+Guarantees
+Availability
+Serviceability
+Performance
+Operation
+Response
+Resolution
+
+Use standardized application development and maintenance methodologies across delivery operations backed by execution experience with digitized and integrated workflow for support, maintenance, and software development life cycle activities
+
+Create an outcome-based model, addressing variability in demand or volume and recommend output or outcome-based models governed by service level management framework
+
+Provide uninterrupted delivery using state-of-the-art infrastructure and connectivity for seamless services, as well as incorporate business continuity/disaster recovery best practices and manage enterprise risk
