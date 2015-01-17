@@ -1,4 +1,9 @@
-#this decorator adds one to the result of the function which it decorates
+'''
+QUESTION:
+Create a decorator that adds one to the result of the function which
+it decorates.
+'''
+
 def decorator(random_func):
     def add_one(*args):
         func = random_func()

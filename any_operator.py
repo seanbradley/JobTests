@@ -1,3 +1,10 @@
+'''
+QUESTION:
+
+Write a function that can take any operator, and a list of values, 
+and return the result of that operator's application to the list.
+'''
+
 from operator import add, sub, div, mul
 
 def any_operator(passed_init_val, passed_operator, passed_list):

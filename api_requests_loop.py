@@ -1,3 +1,10 @@
+'''
+QUESTION:
+
+Write a function that fetches JSON data returned from an API (in this 
+example, geographic data from the Small Business Association).
+'''
+
 import requests
 
 results = []

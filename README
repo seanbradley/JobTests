@@ -9,12 +9,20 @@ https://projecteuler.net
 
 ...but some of the problems herein are rather original and/or specific.
 
+If you're looking for a compendium of actual technical interview questions,
+you might also want to check out out...
+
+http://www.careercup.com/?from=@
+
+The site's founder, Gayle Laakmann McDowell, provides some good strategies
+for whiteboard interviews.
+
 I think, at minimum, my notes, and answers to most of the challenges
 herein ought to be in easy grasp of one's memory prior to walking into
-a whiteboard test situation. Such tests usually tend to be _much_ more 
-difficult. There is little to nothing here regarding--for instance--data 
-types, efficiency of algorithms--and/or higher level computer science...
-all of which is fair game in the interview process. 
+any interview situation involving interacting with live human beings. 
+Such tests usually tend to be much more difficult than tests administered
+via e-mail, or, for which, the interviewee has any length of unsupervised
+time to complete. There is little to nothing in this repo regarding--for instance--data types, efficiency of algorithms--and/or higher level computer science...all of which is fair game in the interview process. 
 
 I make no claim whatsover that my answers are, by any means, the best or 
 most intelligent. In fact, some were met with patent disapproval by my
@@ -32,13 +40,25 @@ compressed into a year long curriculum, and presents salient topics via
 highly cogent and well taught videos. Similar courses and videos abound 
 on the web.
 
-Also, the most popular beginning Python course can be found here:
+Also, the most popular beginning Python course is probably Zed Shaw's, 
+and it can be found here:
 
 http://learnpythonthehardway.org/
 
-Finally, an great Javascript tutorial can be found here:
+Advanced Python tutors and masterclasses can also be found all over,
+but here are two reputable sources:
 
+Jeff Knupp
+http://www.jeffknupp.com/python-tutoring/
+
+Dave Beazley
+http://www.dabeaz.com/pythonmaster.html
+
+Finally, a great Javascript tutorial--recommended by CDBaby's founder, Derek Sivers--can be found here:
 http://eloquentjavascript.net/
+
+And a Javascript masterclass here:
+http://javascriptmasterclass.com/
 
 Feel free to contact me with questions, and/or even to suggest more optimal
 solutions than those suggested herein. Additional questions you've 
